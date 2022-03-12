@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../models/models.dart';
-import '../screens/screens.dart';
+import '../../models/models.dart';
+import '../../screens/screens.dart';
 
 // 1
 class AppRouter extends RouterDelegate

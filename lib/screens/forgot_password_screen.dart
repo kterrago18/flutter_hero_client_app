@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_hero_client_app/constants/constants.dart';
 import 'package:flutter_hero_client_app/models/models.dart';
-import 'package:flutter_hero_client_app/res/app_spacing.dart';
-import 'package:flutter_hero_client_app/res/res.dart';
 import 'package:provider/provider.dart';
 
 class ForgotPasswordScreen extends StatelessWidget {
@@ -38,7 +37,7 @@ class ForgotPasswordScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               SizedBoxSpacing.height24,
-              Text(
+              const Text(
                 'Reset password',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),

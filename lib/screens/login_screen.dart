@@ -3,10 +3,10 @@ import 'dart:ui';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_hero_client_app/constants/constants.dart';
 
 import 'package:flutter_hero_client_app/models/models.dart';
 
-import 'package:flutter_hero_client_app/res/res.dart';
 import 'package:provider/provider.dart';
 
 class LoginScreen extends StatefulWidget {

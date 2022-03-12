@@ -2,17 +2,17 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_hero_client_app/models/models.dart';
-import 'package:flutter_hero_client_app/res/res.dart';
+import 'package:flutter_hero_client_app/constants/constants.dart';
 import 'package:provider/provider.dart';
 
 class CreateAccountScreen extends StatefulWidget {
-  CreateAccountScreen({Key? key}) : super(key: key);
+  const CreateAccountScreen({Key? key}) : super(key: key);
 
   static MaterialPage page() {
     return MaterialPage(
       name: HeroClientPages.createAccountPath,
       key: ValueKey(HeroClientPages.createAccountPath),
-      child: CreateAccountScreen(),
+      child: const CreateAccountScreen(),
     );
   }
 
